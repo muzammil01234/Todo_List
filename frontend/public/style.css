@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#root{
+  width:100%;
+  
+}
+.container{
+    max-width: 70%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap:30px;
+    
+}
+h1{
+   font-family: sans-serif;
+   text-align: center;
+   font-size: 40px;
+}
+ .inputholder{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ input[type='text']{
+    flex:0 0 auto;
+    padding:10px 5px;
+    outline: 0;
+    width:30%;
+    height:50px;
+    border: 2px solid black;
+}
+span{
+    padding:5px;
+    border-radius: 2px solid black;
+}
+.fa-solid.fa-square-plus{
+   font-size: 55px;
+   cursor: pointer;
+   text-align: center;
+}
+.Listholder{
+    background-color: black;
+    color:white;
+    width:40%;
+    padding:10px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Listholder>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap:20px;
+    
+}
+.Listholder>ul>li{
+     border-bottom:1px solid white;
+     padding:5px 10px;
+     position: relative;
+}
+.fa-solid.fa-trash-can{
+    position:absolute;
+    right:5%;
+    bottom:5%;
+    color:white;
+    padding:10px;
+    cursor: pointer;
+}
+input[type='checkbox']{
+    margin-right:10px;
+    color:black;
+    font-size: 20px;
+}
